@@ -1,0 +1,18 @@
+﻿<Window x:Class="HollydayBooking.AmendCostumer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AmendCostumer" Height="226.194" Width="316">
+    <Grid>
+        <Border BorderThickness="1" HorizontalAlignment="Right" Height="100" Margin="0,41,10,0" VerticalAlignment="Top" Width="295" Background="#FFF5F5E6"/>
+
+        <Label x:Name="lbl_AmendCostumerTitle" Content="Amend Costumer" HorizontalAlignment="Left" Margin="81,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Segoe UI Semibold" FontSize="16" Width="148"/>
+        <Label x:Name="lbl_amendCostumerRefNumber" Content="Ref. Number:" HorizontalAlignment="Left" Margin="10,48,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txt_amendCostumerRefNumber" HorizontalAlignment="Left" Height="23" Margin="133,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149" IsEnabled="False"/>
+        <Label x:Name="lbl_amendCostumerName" Content="Name:" HorizontalAlignment="Left" Margin="10,75,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_amendCostumerAddress" Content="Address:" HorizontalAlignment="Left" Margin="10,102,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txt_amendCostumerName" HorizontalAlignment="Left" Height="23" Margin="133,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149"/>
+        <TextBox x:Name="txt_amendCostumerAddress" HorizontalAlignment="Left" Height="23" Margin="133,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149"/>
+        <Button x:Name="btn_amendCostumerUpdate" Content="Update" HorizontalAlignment="Left" Margin="201,151,0,0" VerticalAlignment="Top" Width="89" Click="btn_amendCostumerUpdate_Click"/>
+
+    </Grid>
+</Window>

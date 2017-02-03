@@ -1,0 +1,40 @@
+﻿<Window x:Class="HollydayBooking.Invoice"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HollydayBooking"
+        mc:Ignorable="d"
+        Title="Invoice" Height="680" Width="486">
+    <Grid>
+        <Label x:Name="lbl_invoice" Content="INVOICE" HorizontalAlignment="Left" Margin="277,97,0,0" VerticalAlignment="Top" Width="186" Background="#FFE4DDDD" Height="25" FontWeight="Bold" FontFamily="Raavi"/>
+        <Border BorderBrush="Black" BorderThickness="0" HorizontalAlignment="Left" Height="63" Margin="277,118,0,0" VerticalAlignment="Top" Width="186" Background="#FFF5F5E6"/>
+
+        <Label x:Name="lbl_invoiceDate" Content="Date:" HorizontalAlignment="Left" Margin="276,116,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="lbl_invoiceBookingID" Content="Booking ID:" HorizontalAlignment="Left" Margin="276,135,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="lbl_customer" Content="CUSTOMER" HorizontalAlignment="Left" Margin="11,97,0,0" VerticalAlignment="Top" Width="254" Background="#FFE4DDDD" Height="25" FontWeight="Bold" FontFamily="Raavi"/>
+        <Border BorderBrush="Black" BorderThickness="0" HorizontalAlignment="Left" Height="63" Margin="11,118,0,0" VerticalAlignment="Top" Width="254" Background="#FFF5F5E6">
+            <Label x:Name="lbl_costumerAddress" Content="Address:" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="-1,36,0,0"/>
+        </Border>
+        <Label x:Name="lbl_costumerID" Content="ID:" HorizontalAlignment="Left" Margin="11,116,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="lbl_costumerName" Content="Name:" HorizontalAlignment="Left" Margin="11,135,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="lbl_napierHolydayBooking" Content="Napier Holyday Booking" HorizontalAlignment="Left" Margin="110,29,0,0" VerticalAlignment="Top" Width="285" FontSize="20" FontFamily="Bookman Old Style" FontWeight="Bold"/>
+        <Label x:Name="lbl_invoiceDescription" Content="Description" HorizontalAlignment="Left" Margin="10,222,0,0" VerticalAlignment="Top" Width="328" Background="#FFE4DDDD" Height="32" FontWeight="Bold" FontFamily="Raavi" FontSize="14"/>
+        <Label x:Name="lbl_invoiceAmount" Content="Amount" HorizontalAlignment="Left" Margin="343,222,0,0" VerticalAlignment="Top" Width="120" Background="#FFE4DDDD" Height="25" FontWeight="Bold" FontFamily="Raavi" FlowDirection="RightToLeft" FontSize="14"/>
+        <Border BorderBrush="Black" BorderThickness="0" HorizontalAlignment="Left" Height="241" Margin="10,244,0,0" VerticalAlignment="Top" Width="328" Background="#FFF5F5E6"/>
+        <Border BorderBrush="Black" BorderThickness="0" HorizontalAlignment="Left" Height="241" Margin="343,244,0,0" VerticalAlignment="Top" Width="120" Background="#FFF5F5E6"/>
+        <Label x:Name="lbl_bookingDescription" Content="" HorizontalAlignment="Left" Margin="10,242,0,0" VerticalAlignment="Top" Width="327" Height="243"/>
+        <Label x:Name="lbl_bookingAmount" Content="" HorizontalAlignment="Left" Margin="343,244,0,0" VerticalAlignment="Top" Width="120" Height="241" FlowDirection="RightToLeft"/>
+        <Label x:Name="lbl_totalAmount" Content="Total Due:" HorizontalAlignment="Left" Margin="274,490,0,0" VerticalAlignment="Top" Width="77" FontWeight="Bold"/>
+        <Label x:Name="lbl_invoiceNumberOfGuests" Content="#Guests:" HorizontalAlignment="Left" Margin="276,154,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="lbl_customerIDOutput" Content="cost ID" HorizontalAlignment="Right" Margin="0,116,213,0" VerticalAlignment="Top" Width="196" FlowDirection="RightToLeft"/>
+        <Label x:Name="lbl_customerNameOutput" Content="cost Name" HorizontalAlignment="Right" Margin="0,135,213,0" VerticalAlignment="Top" Width="194" FlowDirection="RightToLeft"/>
+        <Label x:Name="lbl_customerAddressOutput" Content="cost Address" HorizontalAlignment="Right" Margin="0,154,213,0" VerticalAlignment="Top" Width="190" FlowDirection="RightToLeft"/>
+        <Label x:Name="lbl_invoiceDateOutput" Content="inv Date" HorizontalAlignment="Right" Margin="0,116,15,0" VerticalAlignment="Top" Width="106" FlowDirection="RightToLeft"/>
+        <Label x:Name="lbl_invoiceBookingIDOutput" Content="inv Booking" HorizontalAlignment="Right" Margin="0,135,15,0" VerticalAlignment="Top" Width="106" FlowDirection="RightToLeft"/>
+        <Label x:Name="lbl_invoiceNumberOfGuestsOutput" Content="num of Guests" HorizontalAlignment="Right" Margin="0,154,15,0" VerticalAlignment="Top" Width="107" FlowDirection="RightToLeft"/>
+        <Label x:Name="lbl_invoiceTotalAmountOutput" Content="total Amount" HorizontalAlignment="Right" Margin="0,490,15,0" VerticalAlignment="Top" Width="85" FlowDirection="RightToLeft" FontWeight="Bold"/>
+        <Label x:Name="lbl_napierHolydayBooking_Copy" Content="Thank you for your purchase" HorizontalAlignment="Left" Margin="119,572,0,0" VerticalAlignment="Top" Width="254" FontSize="16" FontFamily="Bookman Old Style" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

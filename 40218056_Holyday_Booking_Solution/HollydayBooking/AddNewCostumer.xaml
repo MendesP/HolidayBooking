@@ -1,0 +1,17 @@
+﻿<Window x:Class="HollydayBooking.AddNewCostumer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AddNewCostumer" Height="215.849" Width="298.672">
+    <Grid>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="94" Margin="4,47,0,0" VerticalAlignment="Top" Width="270" Background="#FFF5F5E6"/>
+
+        <Label x:Name="lbl_addNewCostumerLabel" Content="Please enter costumer details:" HorizontalAlignment="Left" Margin="10,48,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="lbl_addNewCostumerName" Content="Name:" HorizontalAlignment="Left" Margin="10,79,0,0" VerticalAlignment="Top" ToolTip=""/>
+        <Label x:Name="lbl_addNewCostumerAddress" Content="Address:" HorizontalAlignment="Left" Margin="10,105,0,0" VerticalAlignment="Top" ToolTip=""/>
+        <TextBox x:Name="txt_addNewCostumerName" HorizontalAlignment="Left" Height="23" Margin="109,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
+        <TextBox x:Name="txt_addNewCostumerAddress" HorizontalAlignment="Left" Height="23" Margin="109,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
+        <Button x:Name="btn_addNewCostumerDone" Content="Done" HorizontalAlignment="Left" Margin="199,147,0,0" VerticalAlignment="Top" Width="75" Click="btn_addNewCostumerDone_Click"/>
+        <Label x:Name="label" Content="Costumer Menu" HorizontalAlignment="Left" Margin="78,11,0,0" VerticalAlignment="Top" Width="140" FontSize="16" FontWeight="Bold" FontFamily="Segoe UI Semibold"/>
+
+    </Grid>
+</Window>
